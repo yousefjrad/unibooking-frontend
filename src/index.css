@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme { --font-sans: "Cairo", system-ui, sans-serif; --color-ink:#17211f; --color-pine:#0f4c45; --color-mist:#f3f6f5; --color-gold:#b8892b; }
+body { @apply bg-mist text-ink font-sans; }
+.btn { @apply rounded-lg bg-pine px-4 py-2 font-semibold text-white hover:opacity-90 disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-gold; }
+.btn2 { @apply rounded-lg border border-pine/30 px-3 py-1.5 text-sm hover:bg-pine/5; }
+.inp { @apply w-full rounded-lg border border-pine/25 bg-white px-3 py-2 focus-visible:outline-2 focus-visible:outline-gold; }
